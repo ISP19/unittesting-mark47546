@@ -59,6 +59,10 @@ class FractionTest(unittest.TestCase):
         self.assertFalse(a == c)
         self.assertFalse(b == c)
 
+        d = Fraction(1, 0)
+        e = Fraction(0, 0)
+        self.assertFalse(d == e)
+
     def test_mul(self):
         self.assertEqual(Fraction(3, 8), Fraction(1, 2)*Fraction(3, 4))
         self.assertEqual(Fraction(9, 16), Fraction(-3, -4)*Fraction(-3, -4))

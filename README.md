@@ -19,9 +19,10 @@ Write a table describing your test cases.
 
 ## Test Cases for Fraction
 
-| Test case | Expected Result                              |
-| --------- | -------------------------------------------- |
-| init      | fraction object                              |
-| addition  | the added fraction                           |
-| multiply  | the fraction that already multiply by others |
-| equal     | true or false of the compare fraction        |
+| Test case  | Expected Result                              |
+| ---------- | -------------------------------------------- |
+| init       | fraction object                              |
+| addition   | the added fraction                           |
+| multiply   | the fraction that already multiply by others |
+| equal      | true or false of the compare fraction        |
+| equal_Zero | compare the zero numerator or denominator    |

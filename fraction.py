@@ -15,13 +15,26 @@ class Fraction:
         """Initialize a new fraction with the given numerator
            and denominator (default 1).
         """
-        gcd = math.gcd(numerator, denominator)
-        self.numerator = int(numerator/gcd)
-        self.denominator = int(denominator/gcd)
-        self.fraction = self.numerator/self.denominator
-        if self.denominator < 0:
-            self.numerator = self.numerator*-1
-            self.denominator = self.denominator*-1
+        if denominator == 0:
+            if numerator == 0:
+                self.numerator = 0
+                self.denominator = 0
+            elif numerator > 0:
+                self.numerator = 1
+                self.denominator = 0
+            elif numerator < 0:
+                self.numerator = -1
+                self.denominator = 0
+        elif denominator < 0:
+            numerator = numerator*-1
+            denominator = denominator*-1
+            gcd = math.gcd(numerator, denominator)
+            self.numerator = int(numerator/gcd)
+            self.denominator = int(denominator/gcd)
+        else:
+            gcd = math.gcd(numerator, denominator)
+            self.numerator = int(numerator/gcd)
+            self.denominator = int(denominator/gcd)
 
     def __add__(self, frac):
         """Return the sum of two fractions as a new fraction.
@@ -53,4 +66,4 @@ class Fraction:
            is unique (3/6 is same as 1/2).
         """
 
-        return self.numerator / self.denominator == frac.numerator / frac.denominator
+        return self.numerator == frac.numerator and self.denominator == frac.denominator
