@@ -1,4 +1,5 @@
 ## Unit Testing Assignment
+![Build Status](https://travis-ci.com/mark47546/unittesting-mark47546.svg?branch=master)](https://travis-ci.com/mark47546/unittesting-mark47546)
 
 by Natthaphon Rakprakobkij.
 
