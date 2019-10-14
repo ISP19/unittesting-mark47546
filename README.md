@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Unit Testing Assignment
 ![Build Status](https://travis-ci.com/mark47546/unittesting-mark47546.svg?branch=master)](https://travis-ci.com/mark47546/unittesting-mark47546)
 
@@ -28,7 +27,7 @@ Write a table describing your test cases.
 | multiply   | the fraction that already multiply by others |
 | equal      | true or false of the compare fraction        |
 | equal_Zero | compare the zero numerator or denominator    |
-=======
+
 ## Unit Testing Assignment
 
 by Natthaphon Rakprakobkij.
@@ -57,4 +56,4 @@ Write a table describing your test cases.
 | multiply   | the fraction that already multiply by others |
 | equal      | true or false of the compare fraction        |
 | equal_Zero | compare the zero numerator or denominator    |
->>>>>>> b3d31f4987757ff76c58829119c64e1a5c6a499c
+
