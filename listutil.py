@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def unique(list):
     """Return a list containing only the first occurence of each distint
        element in list.  That is, all duplicates are omitted.
@@ -60,4 +59,4 @@ if __name__ == "__main__":
     """Run the doctests in all methods."""
     import doctest
     doctest.testmod(verbose=True)
->>>>>>> b3d31f4987757ff76c58829119c64e1a5c6a499c
+

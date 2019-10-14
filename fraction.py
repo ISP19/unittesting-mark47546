@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import math
 
 
@@ -138,4 +137,4 @@ class Fraction:
         """
 
         return self.numerator == frac.numerator and self.denominator == frac.denominator
->>>>>>> b3d31f4987757ff76c58829119c64e1a5c6a499c
+>

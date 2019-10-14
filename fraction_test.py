@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import math
 import time
 import unittest
@@ -148,4 +147,4 @@ class FractionTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
->>>>>>> b3d31f4987757ff76c58829119c64e1a5c6a499c
+
