@@ -32,4 +32,5 @@ class ListUtilTest(unittest.TestCase):
         self.assertListEqual(['s', 'k', 'e'], unique(
             ['s', 'k', 'k', 'e', 'e', 'e']))
 
-
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
