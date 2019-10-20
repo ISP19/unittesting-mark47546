@@ -1,6 +1,8 @@
 ## Unit Testing Assignment
 [![Build Status](https://travis-ci.com/mark47546/unittesting-mark47546.svg?branch=master)](https://travis-ci.com/mark47546/unittesting-mark47546)
 
+[![codecov](https://codecov.io/gh/mark47546/unittesting-mark47546/branch/master/graph/badge.svg)](https://codecov.io/gh/mark47546/unittesting-mark47546)
+
 by Natthaphon Rakprakobkij.
 
 ## Test Cases for unique
